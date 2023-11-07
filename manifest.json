@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Mode",
+  "description": "Enable focus mode on Chrome's official Extensions and Chrome Web Store documentation.",
+  "version": "1.0",
+  "icons": {
+    "16": "images/mic.png",
+    "32": "images/mic1.png",
+    "48": "images/mic2.png",
+    "128": "images/mic3.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "css": ["scripts/content.css"],
+      "matches": ["*://*/*"]
+    }
+  ]
+}
