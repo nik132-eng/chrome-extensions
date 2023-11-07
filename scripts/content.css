@@ -1,3 +1,53 @@
-body{
-    background-color: rgb(255, 0, 0) !important;
-}
+#BtnBQ {
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 999;
+    position: relative;
+    transition: background-color 0.3s;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }
+  
+  #BtnBQ:hover {
+    background-color: #008080;
+  }
+  
+  @keyframes plusAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(2.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+/*   
+  #BtnBQ::before,
+  #BtnBQ::after {
+    content: '';
+    position: absolute;
+    background-color: white;
+    height: 20px;
+    width: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
+  
+  #BtnBQ::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  
+  #BtnBQ:hover::before,
+  #BtnBQ:hover::after {
+    animation: plusAnimation 0.5s;
+  }
+  
