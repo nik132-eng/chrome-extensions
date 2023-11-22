@@ -12,36 +12,37 @@
     position: fixed;
     bottom: 50px;
     right: 50px;
+    border-radius: 50%;
+    border-color: rgb(0, 0, 0);
+    animation-name: plusAnimation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-duration: alternative;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
   }
   
   #BtnBQ:hover {
     background-color: #008080;
+    transform: scale(1.2);
+    border-color: aliceblue;
+    animation: none;
   }
   
   @keyframes plusAnimation {
     0% {
+      background-color: teal;
       transform: scale(1);
     }
-    50% {
-      transform: scale(2.2);
+    85% {
+      transform: scale(1);
     }
     100% {
-      transform: scale(1);
+      transform: scale(1.5);
+      background-color: #006363;
     }
   }
-/*   
-  #BtnBQ::before,
-  #BtnBQ::after {
-    content: '';
-    position: absolute;
-    background-color: white;
-    height: 20px;
-    width: 2px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } */
-  
+
   #BtnBQ::after {
     transform: translate(-50%, -50%) rotate(90deg);
   }
@@ -51,3 +52,26 @@
     animation: plusAnimation 0.5s;
   }
   
+  #BtnBQ[listening]{
+    animation-name: fastplusAnimation;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-duration: alternative;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+  }
+
+  @keyframes fastplusAnimation {
+    0% {
+      background-color: teal;
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+      background-color: #006363;
+    }
+  }
