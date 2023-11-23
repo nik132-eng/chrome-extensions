@@ -2,7 +2,7 @@
 
 ![pngwing com](https://github.com/nik132-eng/chrome-extensions/assets/77881638/a70432cc-9ec6-40bd-8a1a-053f22df59e8)
 
-This repository contains multiple Chrome extensions geared toward various purposes. Each extension is located in its respective folder within this repository.
+This repository hosts a collection of Chrome extensions designed for diverse purposes. Each extension has its own folder within this repository, with some already developed and others awaiting creation.
 
 ## Extensions Overview
 
