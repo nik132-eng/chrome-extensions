@@ -14,13 +14,15 @@ To get started with contributing to Chrome-extension-Curious, follow these steps
 
    ```
 
-3. **Open Chrome** and navigate to `chrome://extensions/`.
+3. Create a folder for your Chrome extension ( If you want to make your own please raise the issue first )
 
-4. **Enable Developer mode** by toggling the switch in the top right corner.
+4. **Open Chrome** and navigate to `chrome://extensions/`.
 
-5. **Click on "Load unpacked"** and select the folder where you cloned your forked repository.
+5. **Enable Developer mode** by toggling the switch in the top right corner.
 
-6. The extension should now be installed in your Chrome browser.
+6. **Click on "Load unpacked"** and select the folder where you cloned your forked repository.
+
+7. The extension should now be installed in your Chrome browser.
 
 ## Ways to Contribute
 
