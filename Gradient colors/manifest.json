@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Random Gradient Generator",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "browser_action": {
+      "default_popup": "build/index.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon16.png",
+        "128": "icons/icon16.png"
+      }
+    },
+    "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon16.png",
+      "128": "icons/icon16.png"
+    }
+  }
+  
