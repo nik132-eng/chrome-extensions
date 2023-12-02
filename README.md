@@ -11,6 +11,9 @@ This repository hosts a collection of Chrome extensions designed for diverse pur
 
 ### Coding Challenge Generator
 - **Purpose:** This extension generates coding challenges for users.
+
+### Gradient colors
+- **Purpose:** This extension generates Gradient colors
   
 ### Meme Generator
 - **Purpose:** Allows users to quickly create memes using web images or uploads.
