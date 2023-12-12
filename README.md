@@ -24,6 +24,9 @@ This repository hosts a collection of Chrome extensions designed for diverse pur
 ### Stress Buster
 - **Purpose:** Designed to alleviate stress and promote relaxation.
 
+### Score Viewer
+- **Purpose:** A tool to check socore of a ongoing match.
+
 ## How to Contribute
 
 Contributions to this project are highly welcomed! Here's how you can contribute:
