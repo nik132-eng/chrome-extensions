@@ -1,0 +1,20 @@
+body {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .popup-container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
