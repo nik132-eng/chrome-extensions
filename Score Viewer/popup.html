@@ -3,7 +3,7 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="popup.css">
- 
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'nonce-random_nonce_here';">
 </head>
 
 <body>
@@ -26,9 +26,10 @@
     <div class="section">
       <h2>Upcoming Series</h2>
       <p>Explore details about upcoming cricket series.</p>
-      <a href="upcoming_matches.html"><button id="upcomingSeriesBtn">View</button></a>
+      <a href="upcoming_series.html"><button id="upcomingSeriesBtn">View</button></a>
     </div>
   </div>
+  <script src="popup.js"></script>
 </body>
 
 </html>
