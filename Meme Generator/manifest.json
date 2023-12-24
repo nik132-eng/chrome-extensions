@@ -1,0 +1,14 @@
+{
+    "name": "Code Visors",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "All Social Media of CodeVisors",
+  
+    "icons": {
+        "128": "icon.png"
+    },
+  
+    "permissions": [
+        "activeTab"
+    ]
+}
