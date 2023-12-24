@@ -1,3 +1,7 @@
+
+<img src="./assets/icon.png" alt="Stress Buster icon" style="height: 100px; width:100px;"/>
+
+
 # Stress Buster
 A chromium based extension which helps the user in times of stress and anxiety by playing soothing and calm music.
 
@@ -6,5 +10,5 @@ Music therapy is a powerful tool for alleviating stress by engaging individuals 
 
 Read more on this: [Music therapy for stress reduction: a systematic review and meta-analysis](https://www.researchgate.net/publication/346786799_Music_therapy_for_stress_reduction_a_systematic_review_and_meta-analysis)
 
-## Planning
-Songs are added to the extension and user gets option to select music and play.
+## Preview of Extension
+<img src="./assets/Screenshot.png" alt="Screenshot" style="height:250px; width:250px;"/>
