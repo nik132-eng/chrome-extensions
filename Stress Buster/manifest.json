@@ -4,9 +4,13 @@
     "description": "A chromium based extension which helps the user in times of stress and anxiety by playing soothing and calm music.",
     "version": "1.0.0",
     "permissions": ["activeTab"],
-    "host_permissions": ["https://*.youtube.com/*"],
     "action": {
         "default_popup": "main.html",
         "default_icon": "./assets/icon.png"
+    },
+    "icons":{
+        "16":"./assets/icon.png",
+        "32":"./assets/icon.png",
+        "48":"./assets/icon.png"
     }
 }
