@@ -1,0 +1,18 @@
+{
+    "name":"Meme",
+    "description":"Get a new Meme Everyday",
+    "version":"1.0",
+    "manifest_version":3,
+    "action":{
+        "default_popup":"index.html",
+        "default_icon":"./icon.png"
+     },
+     "icons":{
+        "128":"./icon.png"
+     },
+     "permissions":["activeTab"],
+     "author": {
+      "name": "Shivang Gupta",
+      "github": "github.com/shivang21007/"
+    }
+}
