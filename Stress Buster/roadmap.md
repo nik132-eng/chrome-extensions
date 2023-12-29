@@ -11,7 +11,10 @@ Music therapy is a powerful tool for alleviating stress by engaging individuals 
 Read more on this: [Music therapy for stress reduction: a systematic review and meta-analysis](https://www.researchgate.net/publication/346786799_Music_therapy_for_stress_reduction_a_systematic_review_and_meta-analysis)
 
 ## Demonstration
-https://github.com/supr1yo/chrome-extensions/blob/feature-branch/Stress%20Buster/assets/Screencast%202023-12-29%2017%3A21%3A53.mp4
+
+<video width="320" height="240" controls>
+  <source src="./assets/demo.mp4" type="video/mp4">
+</video>
 
 ## Preview of Extension
 <img src="./assets/Screenshot.png" alt="Screenshot" style="height:250px; width:250px;"/>
