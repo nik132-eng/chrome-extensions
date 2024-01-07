@@ -1,0 +1,17 @@
+{
+    "name":"Stock Viewer",
+    "description":"A Stock Viewer Web Extension",
+    "manifest_version":3,
+    "version":"1.0",
+    "background":{
+        "service_worker":"background.js"
+    },
+    "action":{
+        "default_popup":"popup.html"
+       },
+    "icons":{
+        "16":"logo.png",
+        "32":"logo.png",
+        "48":"logo.png"
+        }
+}

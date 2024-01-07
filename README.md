@@ -27,6 +27,9 @@ This repository hosts a collection of Chrome extensions designed for diverse pur
 ### Score Viewer
 - **Purpose:** A tool to check socore of a ongoing match.
 
+### Stock Viewer
+- **Purpose:** A tool to check top stock prices and crypto prices
+
 ## How to Contribute
 
 Contributions to this project are highly welcomed! Here's how you can contribute:
