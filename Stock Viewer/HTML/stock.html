@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="../popup.css">
-  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'nonce-random_nonce_here';">
+  <link rel="stylesheet" type="text/css" href="../CSS/stock.css">
 </head>
 
- <body>
-    <div class="popup-container">
-        <h1>Top Stocks</h1>
-        <p>Top Stocks will be displayed.</p>
-        </div>
-        
-    </body>
-        
-   
- </html>
+<body>
+  <div class="popup-container">
+    <h1>Top Stock Prices</h1>
+    <p>Note: The values are in respect to USD.</p>
+
+    <div class="series-details" id="series">
+      <!-- Details for the first series -->
+    </div>
+
+  </div>
+  <script src="../JS/stocks.js"></script>
+</body>
+
+</html>
